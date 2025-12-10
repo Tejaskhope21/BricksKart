@@ -58,10 +58,16 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-2">
-            <button className="px-4 py-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors">
+            <button
+              onClick={() => setIsQuoteModalOpen(true)}
+              className="px-4 py-2 text-sm font-medium text-secondary hover:text-secondary/80 transition-colors"
+            >
               Get Quote
             </button>
-            <button className="px-5 py-2 text-sm font-medium bg-secondary text-white rounded-lg hover:bg-secondary/90 transition-all duration-200 shadow-soft hover:shadow-soft-lg">
+            <button
+              onClick={() => setIsContactModalOpen(true)}
+              className="px-5 py-2 text-sm font-medium bg-secondary text-primary rounded-lg hover:bg-secondary/90 transition-all duration-200 shadow-soft hover:shadow-soft-lg font-bold"
+            >
               Contact Us
             </button>
           </div>

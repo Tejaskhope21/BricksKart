@@ -12,14 +12,14 @@
    * Accent: Industrial Yellow (#F2B000)
    */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 217 33% 12%; /* Dark navy background */
+    --foreground: 0 0% 95%; /* Near white text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 217 33% 15%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 217 33% 18%;
+    --popover-foreground: 0 0% 95%;
 
     /* Primary colors */
     --navy: 217 97% 17.6%; /* #002B5B */
@@ -32,28 +32,28 @@
     --secondary: 194 100% 43.9%; /* Tech Sky Blue */
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 93.3%; /* Concrete Gray #EDEDED */
-    --muted-foreground: 0 0% 40%;
+    --muted: 217 33% 30%;
+    --muted-foreground: 0 0% 70%;
 
     --accent: 45 100% 48%; /* Industrial Yellow */
-    --accent-foreground: 217 97% 17.6%;
+    --accent-foreground: 217 33% 12%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 217 33% 12%;
 
-    --border: 0 0% 93.3%;
-    --input: 0 0% 97%;
-    --ring: 217 97% 17.6%;
+    --border: 217 33% 25%;
+    --input: 217 33% 20%;
+    --ring: 194 100% 43.9%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 217 97% 17.6%;
+    --sidebar-background: 217 33% 15%;
+    --sidebar-foreground: 0 0% 95%;
     --sidebar-primary: 194 100% 43.9%;
-    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-primary-foreground: 217 33% 12%;
     --sidebar-accent: 45 100% 48%;
-    --sidebar-accent-foreground: 217 97% 17.6%;
-    --sidebar-border: 0 0% 93.3%;
+    --sidebar-accent-foreground: 217 33% 12%;
+    --sidebar-border: 217 33% 25%;
     --sidebar-ring: 194 100% 43.9%;
   }
 

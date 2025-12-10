@@ -88,7 +88,7 @@ const Header = () => {
               <Link
                 key={link.href}
                 to={link.href}
-                className="block px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 hover:text-secondary rounded-lg transition-colors"
+                className="block px-4 py-2 text-sm font-medium text-gray-300 hover:bg-gray-800 hover:text-secondary rounded-lg transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}

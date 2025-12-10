@@ -28,7 +28,7 @@ const Footer = () => {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 px-4 py-3 rounded-lg bg-primary/20 border border-primary/30 text-white placeholder:text-primary/50 focus:outline-none focus:border-secondary"
+                className="flex-1 px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white placeholder:text-gray-500 focus:outline-none focus:border-secondary"
               />
               <button className="px-6 py-3 bg-secondary text-primary font-medium rounded-lg hover:bg-secondary/90 transition-all flex items-center justify-center gap-2 whitespace-nowrap">
                 Subscribe <ArrowRight size={18} />

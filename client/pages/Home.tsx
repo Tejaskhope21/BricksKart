@@ -440,11 +440,10 @@ const Home = () => {
                 <div className="p-6 bg-gray-800">
                   <div className="flex items-center justify-between mb-2">
                     <span
-                      className={`text-xs font-bold px-3 py-1 rounded-full ${
-                        project.category === "Civil"
+                      className={`text-xs font-bold px-3 py-1 rounded-full ${project.category === "Civil"
                           ? "bg-primary/20 text-secondary"
                           : "bg-secondary/20 text-secondary"
-                      }`}
+                        }`}
                     >
                       {project.category}
                     </span>

@@ -45,42 +45,72 @@ const ITSolutions = () => {
                 title: "Custom Software Development",
                 description:
                   "Bespoke software solutions tailored to your unique business requirements. Full stack development with modern technologies.",
-                features: ["Architecture Design", "Full Stack Dev", "API Development", "Integration"],
+                features: [
+                  "Architecture Design",
+                  "Full Stack Dev",
+                  "API Development",
+                  "Integration",
+                ],
               },
               {
                 icon: Smartphone,
                 title: "Mobile App Development",
                 description:
                   "Native iOS, Android, and cross-platform mobile applications with exceptional UX and performance.",
-                features: ["iOS Development", "Android Dev", "Cross-platform", "App Store Ready"],
+                features: [
+                  "iOS Development",
+                  "Android Dev",
+                  "Cross-platform",
+                  "App Store Ready",
+                ],
               },
               {
                 icon: Cloud,
                 title: "Cloud Solutions",
                 description:
                   "AWS, Azure, and GCP expertise. Migration, deployment, and infrastructure management for maximum uptime.",
-                features: ["Cloud Migration", "DevOps Setup", "Infrastructure", "99.9% Uptime"],
+                features: [
+                  "Cloud Migration",
+                  "DevOps Setup",
+                  "Infrastructure",
+                  "99.9% Uptime",
+                ],
               },
               {
                 icon: BarChart3,
                 title: "ERP & CRM Systems",
                 description:
                   "Enterprise resource planning and customer relationship management for operational excellence and growth.",
-                features: ["SAP Implementation", "Salesforce CRM", "ERP Customization", "Training"],
+                features: [
+                  "SAP Implementation",
+                  "Salesforce CRM",
+                  "ERP Customization",
+                  "Training",
+                ],
               },
               {
                 icon: Zap,
                 title: "DevOps & Automation",
                 description:
                   "CI/CD pipelines, containerization, and infrastructure as code for rapid, reliable deployments.",
-                features: ["Docker/Kubernetes", "CI/CD Pipelines", "IaC", "Monitoring"],
+                features: [
+                  "Docker/Kubernetes",
+                  "CI/CD Pipelines",
+                  "IaC",
+                  "Monitoring",
+                ],
               },
               {
                 icon: TrendingUp,
                 title: "AI & Data Analytics",
                 description:
                   "Machine learning models, data pipelines, and analytics platforms for data-driven decision making.",
-                features: ["ML Models", "Data Pipeline", "Analytics", "Dashboards"],
+                features: [
+                  "ML Models",
+                  "Data Pipeline",
+                  "Analytics",
+                  "Dashboards",
+                ],
               },
             ].map((service, index) => {
               const Icon = service.icon;
@@ -96,8 +126,14 @@ const ITSolutions = () => {
                   <p className="text-gray-300 mb-6">{service.description}</p>
                   <div className="space-y-2">
                     {service.features.map((feature, idx) => (
-                      <div key={idx} className="flex gap-2 text-gray-400 text-sm">
-                        <CheckCircle size={16} className="text-secondary mt-0.5" />
+                      <div
+                        key={idx}
+                        className="flex gap-2 text-gray-400 text-sm"
+                      >
+                        <CheckCircle
+                          size={16}
+                          className="text-secondary mt-0.5"
+                        />
                         {feature}
                       </div>
                     ))}
@@ -197,7 +233,8 @@ const ITSolutions = () => {
                 client: "Fortune 500 Manufacturing",
                 image:
                   "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
-                description: "Complete ERP implementation for supply chain management",
+                description:
+                  "Complete ERP implementation for supply chain management",
                 metrics: "2.5M Users | 40% Cost Reduction",
               },
               {
@@ -205,7 +242,8 @@ const ITSolutions = () => {
                 client: "Leading Retail Chain",
                 image:
                   "https://images.unsplash.com/photo-1460925895917-afdab1c9b841?w=400&h=300&fit=crop",
-                description: "High-performance e-commerce platform with AI recommendations",
+                description:
+                  "High-performance e-commerce platform with AI recommendations",
                 metrics: "10M Orders | 5x Growth",
               },
               {
@@ -213,7 +251,8 @@ const ITSolutions = () => {
                 client: "National Bank",
                 image:
                   "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=400&h=300&fit=crop",
-                description: "Secure, feature-rich banking application for millions",
+                description:
+                  "Secure, feature-rich banking application for millions",
                 metrics: "5M Users | 99.99% Uptime",
               },
               {
@@ -221,7 +260,8 @@ const ITSolutions = () => {
                 client: "Data-Driven Startup",
                 image:
                   "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=400&h=300&fit=crop",
-                description: "Real-time analytics platform processing 1B+ data points",
+                description:
+                  "Real-time analytics platform processing 1B+ data points",
                 metrics: "1B+ Data Points | Real-time",
               },
               {
@@ -229,7 +269,8 @@ const ITSolutions = () => {
                 client: "Smart City Initiative",
                 image:
                   "https://images.unsplash.com/photo-1551821440-fc7278865c41?w=400&h=300&fit=crop",
-                description: "IoT management platform for 100,000+ connected devices",
+                description:
+                  "IoT management platform for 100,000+ connected devices",
                 metrics: "100K Devices | Real-time",
               },
               {
@@ -237,7 +278,8 @@ const ITSolutions = () => {
                 client: "Global Tech Company",
                 image:
                   "https://images.unsplash.com/photo-1531746790731-6c087fecd65b?w=400&h=300&fit=crop",
-                description: "Intelligent chatbot handling 10M+ customer queries monthly",
+                description:
+                  "Intelligent chatbot handling 10M+ customer queries monthly",
                 metrics: "10M Queries | 95% Resolution",
               },
             ].map((product, index) => (
@@ -358,10 +400,7 @@ const ITSolutions = () => {
         onClose={() => setIsQuoteModalOpen(false)}
         title="Get a Quote"
       >
-        <ContactForm
-          type="quote"
-          onClose={() => setIsQuoteModalOpen(false)}
-        />
+        <ContactForm type="quote" onClose={() => setIsQuoteModalOpen(false)} />
       </Modal>
     </Layout>
   );

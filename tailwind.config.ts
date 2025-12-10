@@ -103,7 +103,7 @@ export default {
         "slide-up": "slide-up 0.6s ease-out",
       },
       boxShadow: {
-        "soft": "0 8px 32px rgba(0, 0, 0, 0.08)",
+        soft: "0 8px 32px rgba(0, 0, 0, 0.08)",
         "soft-lg": "0 16px 48px rgba(0, 0, 0, 0.1)",
       },
     },

@@ -14,7 +14,8 @@ const Projects = () => {
       value: "₹50 Cr+",
       image:
         "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=500&h=350&fit=crop",
-      description: "Mixed-use commercial complex with retail, offices, and hospitality",
+      description:
+        "Mixed-use commercial complex with retail, offices, and hospitality",
       duration: "36 months",
       area: "50,000 sqft",
     },
@@ -25,7 +26,8 @@ const Projects = () => {
       value: "250 Units",
       image:
         "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500&h=350&fit=crop",
-      description: "Gated residential community with modern amenities and green spaces",
+      description:
+        "Gated residential community with modern amenities and green spaces",
       duration: "42 months",
       area: "50 acres",
     },
@@ -36,7 +38,8 @@ const Projects = () => {
       value: "₹75 Cr+",
       image:
         "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=500&h=350&fit=crop",
-      description: "Large-scale infrastructure including roads, flyovers, and utilities",
+      description:
+        "Large-scale infrastructure including roads, flyovers, and utilities",
       duration: "48 months",
       area: "10km corridor",
     },
@@ -47,7 +50,8 @@ const Projects = () => {
       value: "₹40 Cr",
       image:
         "https://images.unsplash.com/photo-1513828583688-c52646db42da?w=500&h=350&fit=crop",
-      description: "State-of-the-art industrial park with warehousing and logistics",
+      description:
+        "State-of-the-art industrial park with warehousing and logistics",
       duration: "30 months",
       area: "100 acres",
     },
@@ -81,7 +85,8 @@ const Projects = () => {
       value: "10M Orders",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab1c9b841?w=500&h=350&fit=crop",
-      description: "High-performance e-commerce platform with AI recommendations",
+      description:
+        "High-performance e-commerce platform with AI recommendations",
       duration: "14 months",
       area: "30K+ products",
     },
@@ -92,7 +97,8 @@ const Projects = () => {
       value: "Real-time",
       image:
         "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=350&fit=crop",
-      description: "Real-time analytics platform processing billions of data points",
+      description:
+        "Real-time analytics platform processing billions of data points",
       duration: "10 months",
       area: "50+ dashboards",
     },
@@ -179,9 +185,13 @@ const Projects = () => {
                     {project.title}
                   </h3>
 
-                  <p className="text-gray-400 text-sm mb-4">{project.location}</p>
+                  <p className="text-gray-400 text-sm mb-4">
+                    {project.location}
+                  </p>
 
-                  <p className="text-gray-300 mb-6 flex-1">{project.description}</p>
+                  <p className="text-gray-300 mb-6 flex-1">
+                    {project.description}
+                  </p>
 
                   <div className="grid grid-cols-3 gap-3 mb-6 pb-6 border-b border-gray-700 text-center">
                     <div>
@@ -206,7 +216,10 @@ const Projects = () => {
 
                   <button className="w-full px-4 py-2 bg-secondary text-primary font-bold rounded-lg hover:bg-secondary/90 transition-all flex items-center justify-center gap-2 group/btn">
                     View Case Study
-                    <ArrowRight size={16} className="group-hover/btn:translate-x-1 transition-transform" />
+                    <ArrowRight
+                      size={16}
+                      className="group-hover/btn:translate-x-1 transition-transform"
+                    />
                   </button>
                 </div>
               </div>
@@ -232,10 +245,26 @@ const Projects = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { number: "200+", label: "Projects Completed", color: "from-primary to-sky" },
-              { number: "₹500+ Cr", label: "Total Project Value", color: "from-secondary to-sky" },
-              { number: "10+ Yrs", label: "Industry Experience", color: "from-yellow to-orange-500" },
-              { number: "50+", label: "Happy Clients", color: "from-green-400 to-emerald-500" },
+              {
+                number: "200+",
+                label: "Projects Completed",
+                color: "from-primary to-sky",
+              },
+              {
+                number: "₹500+ Cr",
+                label: "Total Project Value",
+                color: "from-secondary to-sky",
+              },
+              {
+                number: "10+ Yrs",
+                label: "Industry Experience",
+                color: "from-yellow to-orange-500",
+              },
+              {
+                number: "50+",
+                label: "Happy Clients",
+                color: "from-green-400 to-emerald-500",
+              },
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div

@@ -264,7 +264,8 @@ const Blog = () => {
               Subscribe to Our Newsletter
             </h2>
             <p className="text-white/90 mb-8">
-              Get the latest articles, tips, and insights delivered to your inbox
+              Get the latest articles, tips, and insights delivered to your
+              inbox
             </p>
             <form className="flex gap-2 flex-col sm:flex-row">
               <input

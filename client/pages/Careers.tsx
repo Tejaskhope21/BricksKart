@@ -1,4 +1,12 @@
-import { MapPin, Briefcase, DollarSign, Heart, Users, Award, ArrowRight } from "lucide-react";
+import {
+  MapPin,
+  Briefcase,
+  DollarSign,
+  Heart,
+  Users,
+  Award,
+  ArrowRight,
+} from "lucide-react";
 import Layout from "@/components/Layout";
 
 const Careers = () => {
@@ -11,7 +19,8 @@ const Careers = () => {
       salary: "₹15-25 Lakh",
       experience: "5+ years",
       type: "Full-time",
-      description: "Lead civil engineering projects with expertise in structural design",
+      description:
+        "Lead civil engineering projects with expertise in structural design",
     },
     {
       id: 2,
@@ -21,7 +30,8 @@ const Careers = () => {
       salary: "₹12-20 Lakh",
       experience: "3+ years",
       type: "Full-time",
-      description: "Develop scalable web applications using modern technologies",
+      description:
+        "Develop scalable web applications using modern technologies",
     },
     {
       id: 3,
@@ -113,22 +123,26 @@ const Careers = () => {
               {
                 icon: Heart,
                 title: "Passion",
-                description: "We care deeply about excellence in everything we do",
+                description:
+                  "We care deeply about excellence in everything we do",
               },
               {
                 icon: Users,
                 title: "Collaboration",
-                description: "Strong teamwork across civil and technology domains",
+                description:
+                  "Strong teamwork across civil and technology domains",
               },
               {
                 icon: Award,
                 title: "Excellence",
-                description: "Commitment to highest standards and continuous improvement",
+                description:
+                  "Commitment to highest standards and continuous improvement",
               },
               {
                 icon: Briefcase,
                 title: "Growth",
-                description: "Invest in your professional development and career growth",
+                description:
+                  "Invest in your professional development and career growth",
               },
             ].map((value, index) => {
               const Icon = value.icon;
@@ -230,7 +244,10 @@ const Careers = () => {
                   <div className="text-right">
                     <button className="px-6 py-2 bg-secondary text-primary font-bold rounded-lg hover:bg-secondary/90 transition-all flex items-center justify-center gap-2 ml-auto group/btn">
                       Apply Now
-                      <ArrowRight size={16} className="group-hover/btn:translate-x-1 transition-transform" />
+                      <ArrowRight
+                        size={16}
+                        className="group-hover/btn:translate-x-1 transition-transform"
+                      />
                     </button>
                   </div>
                 </div>
@@ -264,15 +281,21 @@ const Careers = () => {
                 <div className="space-y-3 mb-6 pb-6 border-b border-gray-600">
                   <div>
                     <p className="text-gray-400 text-sm">Duration</p>
-                    <p className="text-white font-semibold">{internship.duration}</p>
+                    <p className="text-white font-semibold">
+                      {internship.duration}
+                    </p>
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Location</p>
-                    <p className="text-white font-semibold">{internship.location}</p>
+                    <p className="text-white font-semibold">
+                      {internship.location}
+                    </p>
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Stipend</p>
-                    <p className="text-secondary font-bold">{internship.stipend}</p>
+                    <p className="text-secondary font-bold">
+                      {internship.stipend}
+                    </p>
                   </div>
                 </div>
 
@@ -320,7 +343,9 @@ const Careers = () => {
                 key={index}
                 className="bg-gray-800 rounded-xl border border-gray-700 p-6 hover:border-secondary/50 transition-all"
               >
-                <p className="text-gray-300 mb-6 italic">&quot;{testimonial.text}&quot;</p>
+                <p className="text-gray-300 mb-6 italic">
+                  &quot;{testimonial.text}&quot;
+                </p>
                 <div className="flex items-center gap-3">
                   <img
                     src={testimonial.image}

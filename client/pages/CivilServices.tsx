@@ -25,8 +25,9 @@ const CivilServices = () => {
             Civil Engineering Services
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Comprehensive construction, structural design, and project management
-            solutions for residential, commercial, and infrastructure projects
+            Comprehensive construction, structural design, and project
+            management solutions for residential, commercial, and infrastructure
+            projects
           </p>
         </div>
       </section>
@@ -45,42 +46,72 @@ const CivilServices = () => {
                 title: "Construction Services",
                 description:
                   "End-to-end construction management with quality assurance, timeline optimization, and safety compliance. Experienced in residential, commercial, and industrial projects.",
-                features: ["Project Planning", "Quality Control", "Safety Management", "Progress Tracking"],
+                features: [
+                  "Project Planning",
+                  "Quality Control",
+                  "Safety Management",
+                  "Progress Tracking",
+                ],
               },
               {
                 icon: Hammer,
                 title: "Structural Design",
                 description:
                   "Advanced structural analysis and design using AutoCAD, Revit, and STAAD Pro. RCC, steel, and mixed structure expertise.",
-                features: ["Load Analysis", "3D Modeling", "Seismic Design", "Cost Optimization"],
+                features: [
+                  "Load Analysis",
+                  "3D Modeling",
+                  "Seismic Design",
+                  "Cost Optimization",
+                ],
               },
               {
                 icon: Award,
                 title: "Architectural Planning",
                 description:
                   "Innovative architectural designs combining aesthetics with functionality. Modern, contemporary, and heritage design expertise.",
-                features: ["Space Planning", "3D Visualization", "Interior Design", "Sustainable Design"],
+                features: [
+                  "Space Planning",
+                  "3D Visualization",
+                  "Interior Design",
+                  "Sustainable Design",
+                ],
               },
               {
                 icon: TrendingUp,
                 title: "Land Development",
                 description:
                   "Strategic land planning and development for maximum ROI. Expertise in residential colonies, commercial zones, and mixed-use projects.",
-                features: ["Site Analysis", "Master Planning", "Infrastructure Design", "Approvals Management"],
+                features: [
+                  "Site Analysis",
+                  "Master Planning",
+                  "Infrastructure Design",
+                  "Approvals Management",
+                ],
               },
               {
                 icon: BarChart3,
                 title: "Project Management",
                 description:
                   "Comprehensive project management from conception to completion. Cost control, timeline management, and resource optimization.",
-                features: ["Scheduling", "Budget Control", "Risk Management", "Stakeholder Coordination"],
+                features: [
+                  "Scheduling",
+                  "Budget Control",
+                  "Risk Management",
+                  "Stakeholder Coordination",
+                ],
               },
               {
                 icon: Shield,
                 title: "Quality & Safety",
                 description:
                   "Rigorous quality control and comprehensive safety protocols. ISO certified and compliant with all national and international standards.",
-                features: ["ISO 9001 & 45001", "Safety Audits", "Quality Testing", "Compliance Management"],
+                features: [
+                  "ISO 9001 & 45001",
+                  "Safety Audits",
+                  "Quality Testing",
+                  "Compliance Management",
+                ],
               },
             ].map((service, index) => {
               const Icon = service.icon;
@@ -96,8 +127,14 @@ const CivilServices = () => {
                   <p className="text-gray-300 mb-6">{service.description}</p>
                   <div className="space-y-2">
                     {service.features.map((feature, idx) => (
-                      <div key={idx} className="flex gap-2 text-gray-400 text-sm">
-                        <CheckCircle size={16} className="text-secondary mt-0.5" />
+                      <div
+                        key={idx}
+                        className="flex gap-2 text-gray-400 text-sm"
+                      >
+                        <CheckCircle
+                          size={16}
+                          className="text-secondary mt-0.5"
+                        />
                         {feature}
                       </div>
                     ))}
@@ -178,17 +215,17 @@ const CivilServices = () => {
             {[
               {
                 category: "Design Tools",
-                tools: [
-                  "AutoCAD",
-                  "Revit",
-                  "SketchUp",
-                  "Adobe Suite",
-                  "Rhino",
-                ],
+                tools: ["AutoCAD", "Revit", "SketchUp", "Adobe Suite", "Rhino"],
               },
               {
                 category: "Analysis Tools",
-                tools: ["STAAD Pro", "SAFE", "ETABS", "SAP2000", "CSI Products"],
+                tools: [
+                  "STAAD Pro",
+                  "SAFE",
+                  "ETABS",
+                  "SAP2000",
+                  "CSI Products",
+                ],
               },
               {
                 category: "Site Management",
@@ -298,12 +335,16 @@ const CivilServices = () => {
                   <h3 className="text-xl font-heading font-bold text-white mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-gray-400 text-sm mb-4">{project.location}</p>
+                  <p className="text-gray-400 text-sm mb-4">
+                    {project.location}
+                  </p>
                   <div className="flex justify-between items-center mb-4 pb-4 border-b border-gray-600">
                     <span className="text-secondary font-bold">
                       {project.value}
                     </span>
-                    <span className="text-gray-400 text-sm">{project.stats}</span>
+                    <span className="text-gray-400 text-sm">
+                      {project.stats}
+                    </span>
                   </div>
                   <button className="w-full px-4 py-2 bg-secondary text-primary font-bold rounded-lg hover:bg-secondary/90 transition-all text-sm">
                     View Case Study
@@ -344,10 +385,7 @@ const CivilServices = () => {
         onClose={() => setIsQuoteModalOpen(false)}
         title="Get a Quote"
       >
-        <ContactForm
-          type="quote"
-          onClose={() => setIsQuoteModalOpen(false)}
-        />
+        <ContactForm type="quote" onClose={() => setIsQuoteModalOpen(false)} />
       </Modal>
     </Layout>
   );

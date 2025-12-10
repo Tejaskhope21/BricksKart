@@ -26,10 +26,7 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link
-            to="/"
-            className="flex items-center gap-3 group cursor-pointer"
-          >
+          <Link to="/" className="flex items-center gap-3 group cursor-pointer">
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center text-white font-heading font-bold text-lg">
               CI
             </div>
@@ -124,7 +121,10 @@ const Header = () => {
         onClose={() => setIsContactModalOpen(false)}
         title="Contact Us"
       >
-        <ContactForm type="contact" onClose={() => setIsContactModalOpen(false)} />
+        <ContactForm
+          type="contact"
+          onClose={() => setIsContactModalOpen(false)}
+        />
       </Modal>
 
       <Modal

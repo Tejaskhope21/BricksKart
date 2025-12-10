@@ -97,27 +97,42 @@ const Footer = () => {
             <h4 className="font-heading font-bold mb-6">Quick Links</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/about"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/civil-services" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/civil-services"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Civil Services
                 </Link>
               </li>
               <li>
-                <Link to="/it-solutions" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/it-solutions"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   IT Solutions
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/projects"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Projects
                 </Link>
               </li>
@@ -129,27 +144,42 @@ const Footer = () => {
             <h4 className="font-heading font-bold mb-6">Services</h4>
             <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/civil-services" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/civil-services"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Construction
                 </Link>
               </li>
               <li>
-                <Link to="/it-solutions" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/it-solutions"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Software Development
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Cloud Solutions
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Consulting
                 </a>
               </li>
               <li>
-                <Link to="/blog" className="text-gray-400 hover:text-secondary transition-colors">
+                <Link
+                  to="/blog"
+                  className="text-gray-400 hover:text-secondary transition-colors"
+                >
                   Blog
                 </Link>
               </li>
@@ -161,7 +191,10 @@ const Footer = () => {
             <h4 className="font-heading font-bold mb-6">Get in Touch</h4>
             <ul className="space-y-4 text-sm">
               <li className="flex gap-3 text-gray-400">
-                <MapPin size={20} className="flex-shrink-0 mt-0.5 text-secondary" />
+                <MapPin
+                  size={20}
+                  className="flex-shrink-0 mt-0.5 text-secondary"
+                />
                 <span>123 Innovation Street, Tech City, TC 12345</span>
               </li>
               <li className="flex gap-3 text-gray-400 hover:text-secondary transition-colors">
@@ -180,10 +213,16 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <p>&copy; 2024 CoreInnovate. All rights reserved.</p>
           <div className="flex gap-6">
-            <Link to="/privacy" className="hover:text-secondary transition-colors">
+            <Link
+              to="/privacy"
+              className="hover:text-secondary transition-colors"
+            >
               Privacy Policy
             </Link>
-            <Link to="/terms" className="hover:text-secondary transition-colors">
+            <Link
+              to="/terms"
+              className="hover:text-secondary transition-colors"
+            >
               Terms & Conditions
             </Link>
             <a href="#" className="hover:text-secondary transition-colors">

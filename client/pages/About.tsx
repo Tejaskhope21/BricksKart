@@ -26,19 +26,21 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-gray-300 text-lg mb-4 leading-relaxed">
-                Founded in 2014, CoreInnovate emerged from a vision to bridge the
-                gap between traditional civil engineering and cutting-edge
-                technology. We believed that the best solutions come from combining
-                structural excellence with digital innovation.
+                Founded in 2014, CoreInnovate emerged from a vision to bridge
+                the gap between traditional civil engineering and cutting-edge
+                technology. We believed that the best solutions come from
+                combining structural excellence with digital innovation.
               </p>
               <p className="text-gray-300 text-lg mb-4 leading-relaxed">
-                Starting with a small team of 5 dedicated professionals, we've grown
-                into a powerhouse of 150+ experts spanning civil engineering, software
-                development, cloud infrastructure, and AI solutions.
+                Starting with a small team of 5 dedicated professionals, we've
+                grown into a powerhouse of 150+ experts spanning civil
+                engineering, software development, cloud infrastructure, and AI
+                solutions.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Today, we pride ourselves on delivering integrated solutions that
-                transform businesses and build lasting infrastructure for the future.
+                Today, we pride ourselves on delivering integrated solutions
+                that transform businesses and build lasting infrastructure for
+                the future.
               </p>
             </div>
             <div className="rounded-xl overflow-hidden border border-gray-700 h-96">
@@ -90,7 +92,9 @@ const About = () => {
                   <h3 className="text-2xl font-heading font-bold text-white mb-4">
                     {item.title}
                   </h3>
-                  <p className="text-gray-300 leading-relaxed">{item.content}</p>
+                  <p className="text-gray-300 leading-relaxed">
+                    {item.content}
+                  </p>
                 </div>
               );
             })}

@@ -121,8 +121,9 @@ const Home = () => {
               Civil Engineering Excellence
             </h2>
             <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              Comprehensive construction and structural solutions for residential,
-              commercial, and infrastructure projects with proven expertise
+              Comprehensive construction and structural solutions for
+              residential, commercial, and infrastructure projects with proven
+              expertise
             </p>
           </div>
 
@@ -550,8 +551,8 @@ const Home = () => {
             Ready to Transform Your Project?
           </h2>
           <p className="text-lg text-white/90 mb-8 max-w-2xl mx-auto">
-            Let's discuss how our expertise in civil engineering and IT solutions
-            can drive your success and exceed your expectations
+            Let's discuss how our expertise in civil engineering and IT
+            solutions can drive your success and exceed your expectations
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
@@ -587,10 +588,7 @@ const Home = () => {
         onClose={() => setIsQuoteModalOpen(false)}
         title="Get a Quote"
       >
-        <ContactForm
-          type="quote"
-          onClose={() => setIsQuoteModalOpen(false)}
-        />
+        <ContactForm type="quote" onClose={() => setIsQuoteModalOpen(false)} />
       </Modal>
     </Layout>
   );

@@ -34,7 +34,7 @@ const Header = () => {
               CI
             </div>
             <div className="hidden sm:block">
-              <div className="text-lg font-heading font-bold text-primary">
+              <div className="text-lg font-heading font-bold text-white">
                 CoreInnovate
               </div>
               <div className="text-xs text-secondary font-medium">

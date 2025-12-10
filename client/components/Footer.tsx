@@ -158,18 +158,18 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-heading font-bold mb-4">Get in Touch</h4>
-            <ul className="space-y-3 text-sm">
-              <li className="flex gap-2 text-primary/70">
-                <MapPin size={18} className="flex-shrink-0 mt-0.5" />
+            <h4 className="font-heading font-bold mb-6">Get in Touch</h4>
+            <ul className="space-y-4 text-sm">
+              <li className="flex gap-3 text-gray-400">
+                <MapPin size={20} className="flex-shrink-0 mt-0.5 text-secondary" />
                 <span>123 Innovation Street, Tech City, TC 12345</span>
               </li>
-              <li className="flex gap-2 text-primary/70 hover:text-white transition-colors">
-                <Phone size={18} className="flex-shrink-0" />
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+              <li className="flex gap-3 text-gray-400 hover:text-secondary transition-colors">
+                <Phone size={20} className="flex-shrink-0 text-secondary" />
+                <a href="tel:+919876543210">+91 98765 43210</a>
               </li>
-              <li className="flex gap-2 text-primary/70 hover:text-white transition-colors">
-                <Mail size={18} className="flex-shrink-0" />
+              <li className="flex gap-3 text-gray-400 hover:text-secondary transition-colors">
+                <Mail size={20} className="flex-shrink-0 text-secondary" />
                 <a href="mailto:info@coreinnovate.com">info@coreinnovate.com</a>
               </li>
             </ul>
@@ -177,16 +177,16 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-primary/20 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-primary/70">
+        <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
           <p>&copy; 2024 CoreInnovate. All rights reserved.</p>
           <div className="flex gap-6">
-            <Link to="/privacy" className="hover:text-white transition-colors">
+            <Link to="/privacy" className="hover:text-secondary transition-colors">
               Privacy Policy
             </Link>
-            <Link to="/terms" className="hover:text-white transition-colors">
+            <Link to="/terms" className="hover:text-secondary transition-colors">
               Terms & Conditions
             </Link>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="#" className="hover:text-secondary transition-colors">
               Sitemap
             </a>
           </div>

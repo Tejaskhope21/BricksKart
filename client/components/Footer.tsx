@@ -94,30 +94,30 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-heading font-bold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-heading font-bold mb-6">Quick Links</h4>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/" className="text-gray-400 hover:text-secondary transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/about" className="text-gray-400 hover:text-secondary transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/civil-services" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/civil-services" className="text-gray-400 hover:text-secondary transition-colors">
                   Civil Services
                 </Link>
               </li>
               <li>
-                <Link to="/it-solutions" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/it-solutions" className="text-gray-400 hover:text-secondary transition-colors">
                   IT Solutions
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/projects" className="text-gray-400 hover:text-secondary transition-colors">
                   Projects
                 </Link>
               </li>
@@ -126,30 +126,30 @@ const Footer = () => {
 
           {/* Services */}
           <div>
-            <h4 className="font-heading font-bold mb-4">Services</h4>
-            <ul className="space-y-2 text-sm">
+            <h4 className="font-heading font-bold mb-6">Services</h4>
+            <ul className="space-y-3 text-sm">
               <li>
-                <Link to="/civil-services" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/civil-services" className="text-gray-400 hover:text-secondary transition-colors">
                   Construction
                 </Link>
               </li>
               <li>
-                <Link to="/it-solutions" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/it-solutions" className="text-gray-400 hover:text-secondary transition-colors">
                   Software Development
                 </Link>
               </li>
               <li>
-                <a href="#" className="text-primary/70 hover:text-white transition-colors">
+                <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
                   Cloud Solutions
                 </a>
               </li>
               <li>
-                <a href="#" className="text-primary/70 hover:text-white transition-colors">
+                <a href="#" className="text-gray-400 hover:text-secondary transition-colors">
                   Consulting
                 </a>
               </li>
               <li>
-                <Link to="/blog" className="text-primary/70 hover:text-white transition-colors">
+                <Link to="/blog" className="text-gray-400 hover:text-secondary transition-colors">
                   Blog
                 </Link>
               </li>

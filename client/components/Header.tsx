@@ -74,7 +74,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+            className="lg:hidden p-2 text-gray-300 hover:bg-gray-800 rounded-lg transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X size={24} /> : <Menu size={24} />}

@@ -25,11 +25,11 @@ const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 backdrop-blur-sm animate-fade-in"
       onClick={onClose}
     >
       <div
-        className="bg-gray-900 rounded-lg shadow-soft-lg max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto animate-slide-up"
+        className="bg-gray-900 rounded-xl shadow-soft-lg max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto animate-slide-up border border-gray-800"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
@@ -39,10 +39,10 @@ const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
           </h2>
           <button
             onClick={onClose}
-            className="p-2 hover:bg-gray-800 rounded-lg transition-colors"
+            className="p-2 hover:bg-gray-800 rounded-lg transition-colors text-gray-400"
             aria-label="Close modal"
           >
-            <X size={24} className="text-gray-400" />
+            <X size={24} />
           </button>
         </div>
 

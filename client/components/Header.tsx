@@ -95,16 +95,45 @@ const Header = () => {
               </Link>
             ))}
             <div className="pt-2 flex gap-2">
-              <button className="flex-1 px-4 py-2 text-sm font-medium text-primary border border-primary rounded-lg hover:bg-primary/5 transition-colors">
+              <button
+                onClick={() => {
+                  setIsQuoteModalOpen(true);
+                  setIsMenuOpen(false);
+                }}
+                className="flex-1 px-4 py-2 text-sm font-medium text-secondary border border-secondary rounded-lg hover:bg-secondary/10 transition-colors"
+              >
                 Get Quote
               </button>
-              <button className="flex-1 px-4 py-2 text-sm font-medium bg-secondary text-white rounded-lg hover:bg-secondary/90 transition-all">
+              <button
+                onClick={() => {
+                  setIsContactModalOpen(true);
+                  setIsMenuOpen(false);
+                }}
+                className="flex-1 px-4 py-2 text-sm font-medium bg-secondary text-primary rounded-lg hover:bg-secondary/90 transition-all font-bold"
+              >
                 Contact
               </button>
             </div>
           </nav>
         )}
       </div>
+
+      {/* Modals */}
+      <Modal
+        isOpen={isContactModalOpen}
+        onClose={() => setIsContactModalOpen(false)}
+        title="Contact Us"
+      >
+        <ContactForm type="contact" onClose={() => setIsContactModalOpen(false)} />
+      </Modal>
+
+      <Modal
+        isOpen={isQuoteModalOpen}
+        onClose={() => setIsQuoteModalOpen(false)}
+        title="Get a Quote"
+      >
+        <ContactForm type="quote" onClose={() => setIsQuoteModalOpen(false)} />
+      </Modal>
     </header>
   );
 };

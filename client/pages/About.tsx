@@ -8,7 +8,7 @@ const About = () => {
       <section className="py-16 bg-gradient-to-r from-primary to-secondary">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl lg:text-6xl font-heading font-bold text-white mb-4">
-            About CoreInnovate
+            About BricksKart
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
             Building tomorrow's infrastructure and technology solutions with
@@ -26,7 +26,7 @@ const About = () => {
                 Our Story
               </h2>
               <p className="text-gray-300 text-lg mb-4 leading-relaxed">
-                Founded in 2014, CoreInnovate emerged from a vision to bridge
+                Founded in 2014, BricksKart emerged from a vision to bridge
                 the gap between traditional civil engineering and cutting-edge
                 technology. We believed that the best solutions come from
                 combining structural excellence with digital innovation.
@@ -46,7 +46,7 @@ const About = () => {
             <div className="rounded-xl overflow-hidden border border-gray-700 h-96">
               <img
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=500&h=400&fit=crop"
-                alt="CoreInnovate office"
+                alt="BricksKart office"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -236,7 +236,7 @@ const About = () => {
                 year: "2014",
                 title: "Foundation",
                 description:
-                  "CoreInnovate founded with vision to combine civil engineering expertise with technology",
+                  "BricksKart founded with vision to combine civil engineering expertise with technology",
               },
               {
                 year: "2016",

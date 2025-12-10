@@ -86,17 +86,17 @@ const Contact = () => {
                     </h3>
                     <p className="text-gray-400">
                       <a
-                        href="mailto:info@coreinnovate.com"
+                        href="mailto:info@BricksKart.com"
                         className="hover:text-secondary transition-colors"
                       >
-                        info@coreinnovate.com
+                        info@BricksKart.com
                       </a>
                       <br />
                       <a
-                        href="mailto:support@coreinnovate.com"
+                        href="mailto:support@BricksKart.com"
                         className="hover:text-secondary transition-colors"
                       >
-                        support@coreinnovate.com
+                        support@BricksKart.com
                       </a>
                     </p>
                   </div>

@@ -32,7 +32,7 @@ const Header = () => {
             </div>
             <div className="hidden sm:block">
               <div className="text-lg font-heading font-bold text-white">
-                CoreInnovate
+                BricksKart
               </div>
               <div className="text-xs text-secondary font-medium">
                 Civil + Tech

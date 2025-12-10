@@ -306,7 +306,7 @@ const Home = () => {
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-center text-white mb-16">
-            Why Choose CoreInnovate?
+            Why Choose BricksKart?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -440,11 +440,10 @@ const Home = () => {
                 <div className="p-6 bg-gray-800">
                   <div className="flex items-center justify-between mb-2">
                     <span
-                      className={`text-xs font-bold px-3 py-1 rounded-full ${
-                        project.category === "Civil"
+                      className={`text-xs font-bold px-3 py-1 rounded-full ${project.category === "Civil"
                           ? "bg-primary/20 text-secondary"
                           : "bg-secondary/20 text-secondary"
-                      }`}
+                        }`}
                     >
                       {project.category}
                     </span>
@@ -487,7 +486,7 @@ const Home = () => {
               {
                 name: "Rajesh Kumar",
                 role: "Project Manager, BuildTech Ltd",
-                text: "CoreInnovate delivered our construction project on time with exceptional quality. Their expertise in both civil and IT domains is remarkable.",
+                text: "BricksKart delivered our construction project on time with exceptional quality. Their expertise in both civil and IT domains is remarkable.",
                 rating: 5,
                 image:
                   "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
@@ -503,7 +502,7 @@ const Home = () => {
               {
                 name: "Amit Patel",
                 role: "CEO, Infrastructure Ventures",
-                text: "Working with CoreInnovate was transformative. Their integrated approach combining civil and tech is truly innovative and effective.",
+                text: "Working with BricksKart was transformative. Their integrated approach combining civil and tech is truly innovative and effective.",
                 rating: 5,
                 image:
                   "https://images.unsplash.com/photo-1516574187841-6c03acbc4f32?w=100&h=100&fit=crop",

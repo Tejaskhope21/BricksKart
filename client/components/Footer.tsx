@@ -7,11 +7,13 @@ import {
   Phone,
   MapPin,
   ArrowRight,
+  Github,
+  Youtube,
 } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white">
+    <footer className="bg-gray-950 text-white">
       {/* Newsletter Section */}
       <div className="border-b border-primary/20">
         <div className="container mx-auto px-4 py-12">

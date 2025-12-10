@@ -45,11 +45,11 @@ const Footer = () => {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-secondary to-sky rounded-lg flex items-center justify-center text-gray-900 font-bold text-sm font-heading">
-                CI
+              <img src="/companylogo.png" alt="" />
               </div>
               <div>
                 <span className="font-heading font-bold text-lg block">
-                  CoreInnovate
+                  BricksKart
                 </span>
                 <span className="text-xs text-gray-400">Civil + Tech</span>
               </div>
@@ -203,7 +203,7 @@ const Footer = () => {
               </li>
               <li className="flex gap-3 text-gray-400 hover:text-secondary transition-colors">
                 <Mail size={20} className="flex-shrink-0 text-secondary" />
-                <a href="mailto:info@coreinnovate.com">info@coreinnovate.com</a>
+                <a href="mailto:info@BricksKart.com">info@BricksKart.com</a>
               </li>
             </ul>
           </div>
@@ -211,7 +211,7 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-          <p>&copy; 2024 CoreInnovate. All rights reserved.</p>
+          <p>&copy; 2024 BricksKart. All rights reserved.</p>
           <div className="flex gap-6">
             <Link
               to="/privacy"

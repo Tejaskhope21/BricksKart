@@ -105,7 +105,7 @@ const Careers = () => {
             Join Our Team
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Build your career with CoreInnovate - where civil engineering meets
+            Build your career with BricksKart - where civil engineering meets
             technology innovation
           </p>
         </div>
@@ -320,7 +320,7 @@ const Careers = () => {
               {
                 name: "Akshay Singh",
                 role: "Senior Software Engineer",
-                text: "CoreInnovate gave me the opportunity to work on cutting-edge technologies while maintaining work-life balance. The team is amazing!",
+                text: "BricksKart gave me the opportunity to work on cutting-edge technologies while maintaining work-life balance. The team is amazing!",
                 image:
                   "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
               },

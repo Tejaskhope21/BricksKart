@@ -334,7 +334,7 @@ const ITSolutions = () => {
                     Feature
                   </th>
                   <th className="px-6 py-4 font-heading font-bold text-white bg-gray-700">
-                    CoreInnovate
+                    BricksKart
                   </th>
                   <th className="px-6 py-4 font-heading font-bold text-gray-400 bg-gray-700">
                     Competitors

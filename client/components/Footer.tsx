@@ -39,38 +39,55 @@ const Footer = () => {
       </div>
 
       {/* Main Footer Content */}
-      <div className="container mx-auto px-4 py-12">
+      <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-secondary rounded-lg flex items-center justify-center text-primary font-bold text-sm">
+              <div className="w-10 h-10 bg-gradient-to-br from-secondary to-sky rounded-lg flex items-center justify-center text-gray-900 font-bold text-sm font-heading">
                 CI
               </div>
-              <span className="font-heading font-bold text-lg">CoreInnovate</span>
+              <div>
+                <span className="font-heading font-bold text-lg block">
+                  CoreInnovate
+                </span>
+                <span className="text-xs text-gray-400">Civil + Tech</span>
+              </div>
             </div>
-            <p className="text-primary/70 text-sm mb-4">
-              Transforming infrastructure and technology together for a better
-              future.
+            <p className="text-gray-400 text-sm mb-6 leading-relaxed">
+              Transforming infrastructure and technology together for a better,
+              more innovative future.
             </p>
             <div className="flex gap-3">
               <a
                 href="#"
-                className="p-2 bg-primary/20 hover:bg-secondary rounded-lg transition-colors"
+                className="p-2 bg-gray-800 hover:bg-secondary hover:text-primary rounded-lg transition-colors"
               >
                 <Facebook size={18} />
               </a>
               <a
                 href="#"
-                className="p-2 bg-primary/20 hover:bg-secondary rounded-lg transition-colors"
+                className="p-2 bg-gray-800 hover:bg-secondary hover:text-primary rounded-lg transition-colors"
               >
                 <Linkedin size={18} />
               </a>
               <a
                 href="#"
-                className="p-2 bg-primary/20 hover:bg-secondary rounded-lg transition-colors"
+                className="p-2 bg-gray-800 hover:bg-secondary hover:text-primary rounded-lg transition-colors"
               >
                 <Twitter size={18} />
+              </a>
+              <a
+                href="#"
+                className="p-2 bg-gray-800 hover:bg-secondary hover:text-primary rounded-lg transition-colors"
+              >
+                <Youtube size={18} />
+              </a>
+              <a
+                href="#"
+                className="p-2 bg-gray-800 hover:bg-secondary hover:text-primary rounded-lg transition-colors"
+              >
+                <Github size={18} />
               </a>
             </div>
           </div>
